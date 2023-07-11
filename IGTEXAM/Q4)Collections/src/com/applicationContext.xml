@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns = "http://www.springframework.org/schema/beans" 
+xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+ 
+
+
+<bean id="Employee" class="com.Employee">
+
+ 
+
+<constructor-arg name = "Eid"><value>100</value></constructor-arg> 
+<constructor-arg name = "Ename"><value>RAVI</value></constructor-arg>
+<!-- <constructor-arg name = "price"><value>20000</value></constructor-arg>
+<constructor-arg name = "pdesc"><value>good</value></constructor-arg> -->
+
+
+
+</bean>
+
+ 
+
+
+
+</beans>
